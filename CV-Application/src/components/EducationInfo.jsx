@@ -9,7 +9,7 @@ export default function GeneralInfo() {
 
     return (
         <>
-        <div className="EducationInfo">
+        <div className="educationForm">
         <form>
             <label>School</label>
             <input type="text" />

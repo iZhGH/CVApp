@@ -10,11 +10,20 @@ function App() {
 
 
   return (
-    <>
+    <div className='contentWrapper'>
+    <div className='formContent'>
     <GeneralInfo />
     <EducationInfo />
     <ExperienceInfo />
-     </>
+    </div>
+
+    <div className='resumeContent'>
+
+    
+
+    </div>
+</div>
+     
   )
 }
 

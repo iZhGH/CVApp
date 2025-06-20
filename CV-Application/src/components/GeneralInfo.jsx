@@ -1,3 +1,4 @@
+import './styles/general.css'
 import { useState } from "react"
 
 export default function GeneralInfo() {

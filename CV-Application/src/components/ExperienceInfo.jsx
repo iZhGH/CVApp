@@ -9,7 +9,7 @@ export default function ExperienceInfo() {
 
     return (
         <>
-        <div className="EducationInfo">
+        <div className="experienceForm">
         <form>
             <label>Company Name:</label>
             <input type="text" />
@@ -18,7 +18,7 @@ export default function ExperienceInfo() {
             <input type="text" />
 
             <label>Responsibilities:</label>
-            <textarea>List your responsibilities!</textarea>
+            <textarea></textarea>
 
         </form>
         </div>
