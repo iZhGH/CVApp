@@ -1,5 +1,9 @@
 .generalForm {
-    border-radius: 10px;
-    border-color: black;
-    border-style: solid;
+    
+}
+
+.formGroup {
+    display: grid;
+    gap: 20px;
+    padding: 10px;
 }

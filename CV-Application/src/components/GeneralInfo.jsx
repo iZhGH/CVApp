@@ -12,19 +12,29 @@ export default function GeneralInfo() {
     return (
         <>
         <div className="generalForm">
+            <h1>General Information:</h1>
         <form>
+
+            <div className='formGroup'>
             <label>First Name:</label>
             <input type="text" />
+            </div>
 
+            <div className='formGroup'>
             <label>Last Name:</label>
             <input type="text" />
+           </div>         
+            
 
+            <div className='formGroup'>
             <label>Email:</label>
             <input type="email" />
+            </div>
 
+            <div className='formGroup'>
             <label>Phone Number:</label>
             <input type="tel" />       
-
+            </div>
         </form>
         </div>
         </>

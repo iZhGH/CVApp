@@ -10,16 +10,25 @@ export default function ExperienceInfo() {
     return (
         <>
         <div className="experienceForm">
+            <h1>Experience Information:</h1>
         <form>
+
+
+            <div className="formGroup">
             <label>Company Name:</label>
             <input type="text" />
+            </div>
 
+            <div className="formGroup">
             <label>Position:</label>
             <input type="text" />
+            </div>
 
+
+            <div className="formGroup">
             <label>Responsibilities:</label>
             <textarea></textarea>
-
+            </div>
         </form>
         </div>
         </>
