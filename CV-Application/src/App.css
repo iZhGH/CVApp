@@ -1,6 +1,10 @@
+h1 {
+  color: #4717F6;
+}
+
 .resumeContent {
   border-radius: 10px;
-  border-color: black;
+  border-color: white;
   border-style: solid;
   min-width: 800px;
   min-height: 500px;
@@ -22,6 +26,10 @@
 
 input{
   border-radius: 5px;
+}
+
+label {
+  color: #E7DFDD;
 }
 
 form {
