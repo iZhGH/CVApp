@@ -27,6 +27,10 @@ export default function GeneralInfo() {
             <label>Date</label>
             <input type="date" />     
             </div>
+
+            <div className='formGroup'>
+                <input type='submit'></input>
+            </div>
         </form>
         </div>
         </>

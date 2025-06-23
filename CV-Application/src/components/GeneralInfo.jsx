@@ -35,6 +35,10 @@ export default function GeneralInfo() {
             <label>Phone Number:</label>
             <input type="tel" />       
             </div>
+
+            <div className='formGroup'>
+                <input type='submit'></input>
+            </div>
         </form>
         </div>
         </>

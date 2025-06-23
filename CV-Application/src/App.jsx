@@ -5,6 +5,7 @@ import './App.css'
 import GeneralInfo from './components/generalInfo' 
 import EducationInfo from './components/EducationInfo'
 import ExperienceInfo from './components/ExperienceInfo'
+import ResumeContent from './components/ResumeContent'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
     <div className='resumeContent'>
 
+    <ResumeContent />
     
 
     </div>

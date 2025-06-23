@@ -29,6 +29,10 @@ export default function ExperienceInfo() {
             <label>Responsibilities:</label>
             <textarea></textarea>
             </div>
+
+            <div className='formGroup'>
+                <input type='submit'></input>
+            </div>
         </form>
         </div>
         </>
