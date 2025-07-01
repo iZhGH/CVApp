@@ -64,7 +64,7 @@ function App() {
 
     <div className='resumeContent'>
 
-    <ResumeContent />
+    <ResumeContent generalInfo={generalInfo} educationInfo={educationInfo} experienceInfo={experienceInfo} />
     
 
     </div>
