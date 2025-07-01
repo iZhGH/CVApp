@@ -43,10 +43,12 @@ function App() {
   }
 
   function educationSubmitHandler(info) {
+    console.log("Education Info Received:", info);
     setEducationInfo(info)
   }
 
   function experienceSubmitHandler(info) {
+     console.log("Experience Info Received:", info);
     setExperienceInfo(info)
   }
 

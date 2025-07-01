@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function GeneralInfo({onSubmit}) {
+export default function EducationInfo({onSubmit}) {
     const [schoolName,setSchoolName] = useState()
     const [Major, setMajor] = useState()
     const [studyDate, setStudyDate] = useState()
@@ -8,6 +8,7 @@ export default function GeneralInfo({onSubmit}) {
     function handleSubmit(e) {
         e.preventDefault()
         const info = { schoolName, Major, studyDate }
+        console.log("Submitted Info:", info); 
         onSubmit(info)
     }
 

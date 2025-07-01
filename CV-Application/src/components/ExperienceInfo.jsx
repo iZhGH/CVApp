@@ -9,6 +9,7 @@ export default function ExperienceInfo({onSubmit}) {
      function handleSubmit(e) {
         e.preventDefault()
         const info = { companyName, Position, Responsibilities }
+        console.log("Submitted Info:", info); 
         onSubmit(info)
     }
 
