@@ -7,6 +7,14 @@ import EducationInfo from './components/EducationInfo'
 import ExperienceInfo from './components/ExperienceInfo'
 import ResumeContent from './components/ResumeContent'
 
+
+
+
+
+
+function App() {
+
+  
   const[generalInfo, setGeneralInfo] = useState({
     firstName: 'John',
     lastName: 'Doe',
@@ -44,8 +52,6 @@ import ResumeContent from './components/ResumeContent'
 
 
 
-
-function App() {
 
 
   return (
