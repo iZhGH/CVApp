@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function GeneralInfo(onSubmit) {
+export default function GeneralInfo({onSubmit}) {
     const [schoolName,setSchoolName] = useState()
     const [Major, setMajor] = useState()
     const [studyDate, setStudyDate] = useState()

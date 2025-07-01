@@ -1,7 +1,7 @@
 import './styles/general.css'
 import { useState } from "react"
 
-export default function GeneralInfo(onSubmit) {
+export default function GeneralInfo({onSubmit}) {
     const [firstName,setFirstName] = useState()
     const [lastName, setLastName] = useState()
     const [email, setEmail] = useState()

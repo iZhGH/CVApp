@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function ExperienceInfo(onSubmit) {
+export default function ExperienceInfo({onSubmit}) {
     const [companyName, setCompanyName] = useState()
     const [Position, setPosition] = useState()
     const [Responsibilities, setResponsibilities] = useState()

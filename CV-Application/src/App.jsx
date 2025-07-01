@@ -19,7 +19,7 @@ function App() {
     firstName: 'John',
     lastName: 'Doe',
     email: 'Email@Email.com',
-    phone: '1234'
+    phone: '123456'
 
   })
 
