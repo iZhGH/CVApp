@@ -51,9 +51,9 @@ function App() {
   return (
     <div className='contentWrapper'>
     <div className='formContent'>
-    <GeneralInfo />
-    <EducationInfo />
-    <ExperienceInfo />
+    <GeneralInfo onSubmit={generalSubmitHandler}/>
+    <EducationInfo onSubmit={educationSubmitHandler} />
+    <ExperienceInfo onSubmit={experienceSubmitHandler}/>
     </div>
 
     <div className='resumeContent'>
