@@ -5,7 +5,7 @@ export default function GeneralInfo() {
     const [Major, setMajor] = useState()
     const [studyDate, setStudyDate] = useState()
     
-
+  
 
     return (
         <>
