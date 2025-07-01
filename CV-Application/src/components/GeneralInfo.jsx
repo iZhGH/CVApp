@@ -10,6 +10,7 @@ export default function GeneralInfo({onSubmit}) {
     function handleSubmit(e) {
         e.preventDefault()
         const info = {firstName, lastName, email, phoneNumber}
+        console.log("Submitted Info:", info); 
         onSubmit(info)
     }
 

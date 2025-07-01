@@ -38,6 +38,7 @@ function App() {
   })
 
   function generalSubmitHandler(info) {
+    console.log("General Info Received:", info);
     setGeneralInfo(info)
   }
 

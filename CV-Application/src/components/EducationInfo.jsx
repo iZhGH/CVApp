@@ -18,7 +18,7 @@ export default function GeneralInfo({onSubmit}) {
         <>
         <div className="educationForm">
             <h1>Education Information:</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
 
             <div className="formGroup">
             <label>School</label>

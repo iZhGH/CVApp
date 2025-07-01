@@ -18,7 +18,7 @@ export default function ExperienceInfo({onSubmit}) {
         <>
         <div className="experienceForm">
             <h1>Experience Information:</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
 
 
             <div className="formGroup">
